@@ -39,7 +39,7 @@ body {
   height: 80px;
   display: flex;
   align-items: center;
-  border: 1px solid #ececec;
+  /* border: 1px solid #ececec; */
 }
 .header .logo {
   display: block;
