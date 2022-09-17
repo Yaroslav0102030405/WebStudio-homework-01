@@ -36,8 +36,8 @@ body {
 }
 
 .header .container {
-  height: 80px;
   display: flex;
+  height: 80px;
   align-items: center;
   /* border: 1px solid #ececec; */
 }
@@ -58,9 +58,9 @@ body {
   margin-right: 50px;
 }
 .header .link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  display: block;
 
   color: var(--primary-text-color);
 
@@ -134,13 +134,12 @@ body {
 .hero .container {
   padding-top: 200px;
   padding-bottom: 200px;
-
-  /* background-color: var(--heder-footer-bg); */
 }
 
 .hero {
   background-color: var(--heder-footer-bg);
 }
+
 .hero .title {
   display: block;
   max-width: 700;
@@ -163,23 +162,18 @@ body {
 .hero .button-primary {
   display: block;
   margin: auto;
-  height: 50px;
-  line-height: 50;
-  position:relative;
-  height: 50px;
+  margin-top: 40px;
   padding: 10px 32px;
   background-color: var(--accent-color);
   color: var(--primary-bg);
+
   font-family: Roboto;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  margin-top: 40px;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+
   border-radius: 4px;
   border: 0;
 }
@@ -189,15 +183,10 @@ body {
   background: #188ce8;
 }
 
-.hero .button:hover,
-.button:focus {
-  background: #188ce8;
-}
-
-/*Секция особенности*/
+/*Секция особенности-------------------------------------*/
 .features .features-list {
-  padding: 94px 0px;
   display: flex;
+  padding: 94px 0px;
 }
 .features-list .items {
   width: calc((100% - 90px) / 4);
@@ -230,7 +219,7 @@ body {
   letter-spacing: 0.03em;
 }
 /* секция работа ----------------------------------- */
-.wedo .list-margin {
+.work .list-margin {
   margin-top: 50px;
   padding-bottom: 94px;
   display: flex;
@@ -239,7 +228,7 @@ body {
   margin-right: 30px;
 }
 
-.wedo .title {
+.work .title {
   display: block;
   color: var(--primary-text-color);
 
