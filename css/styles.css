@@ -218,11 +218,11 @@ body {
   /* line-height: 1.71px; */
   letter-spacing: 0.03em;
 }
-/* секция работа ----------------------------------- */
+/* секция work ----------------------------------- */
 .work .list-margin {
+  display: flex;
   margin-top: 50px;
   padding-bottom: 94px;
-  display: flex;
 }
 .list-margin .item-img:not(:last-child) {
   margin-right: 30px;
@@ -239,15 +239,10 @@ body {
 }
 
 /* Секция команда --------------------------------------- */
-.team .team-list {
-  margin-top: 50px;
-  /* display:flex
-  justify-content: center; */
-}
 
 .team-list {
   display:flex;
-  margin-right: 30px;
+  margin-top: 50px;
 }
 
 .list-description {
@@ -258,9 +253,6 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-/* .team-list .list-description {
-margin-bottom: 30px;
-} */
 /* пробелы сделдать межуд фото */
 .team-list .list-description:not(:last-child) {
 margin-right: 30px;
